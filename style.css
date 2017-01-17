@@ -108,8 +108,7 @@ ul {
 
 .ulists-over-lines img {
   position: absolute;
-  max-width: 100%;
-  min-width: 100%;
+  width: 90%;
 }
 .div-list {
   display: inline-block;
@@ -117,16 +116,38 @@ ul {
   font-size: 25px;
   font-family: 'Comic-Neue-Sans';
   margin: 70px;
+  margin-bottom: 90px;
 }
 
-footer {
-  overflow: auto;
+.vanessa-footer {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+  padding: 10px;
 }
 
-#Share-button {
+.vanessa-footer img {
+  margin: 10px;
+}
+
+#name {
+  font-size: 25px;
+  font-family: fantasy;
+  margin: 0px;
+}
+#vanessa-bio {
+  padding: 0px;
+  margin: 0px;
+}
+#share-button {
+  margin-left: 200px;
   border: 1px solid brown;
+  background-color: brown;
+  color:white;
+  padding: 20px;
 }
 
 #bottom-line-with-logo-in-the-middle {
   text-align: center;
+  color:grey;
 }
