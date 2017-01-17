@@ -103,25 +103,30 @@ ul {
   font-size: 12px;
   color: black;
   font-family: times;
-  padding: 10px;
+  padding: 8px;
 }
 
-#background-lines img {
+.ulists-over-lines img {
+  position: absolute;
   max-width: 100%;
   min-width: 100%;
 }
-
-.ulist-block {
-  display: block;
-  float: left;
+.div-list {
+  display: inline-block;
+  position: relative;
   font-size: 25px;
-  margin-left: 100px;
-  margin-right: 120px;
   font-family: 'Comic-Neue-Sans';
+  margin: 70px;
 }
-.ulist-block-2 {
-  display: block;
-  font-size: 25px;
-  float: left;
-  font-family: 'Comic-Neue-Sans';
+
+footer {
+  overflow: auto;
+}
+
+#Share-button {
+  border: 1px solid brown;
+}
+
+#bottom-line-with-logo-in-the-middle {
+  text-align: center;
 }
