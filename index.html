@@ -7,36 +7,44 @@
   </head>
   <body>
     <header>
-      <p id="blog-logo">
-        <img src="img/logo.png" alt="Logo" align="left">
-        <h1>Delicious</h1>
-        <p>THE BEST FOOD BLOG ON THE WEB</p>
-      </p>
-
-      <p id="social-media-icons">
-        <img src="img/fb-icon.png" alt="FaceBook Icon">
-        <img src="img/twit-icon.png" alt="Twitter Icon">
-        <img src="img/gp-icon.png" alt="Google-Plus Icon">
-        <img src="img/insta-icon.png" alt="Instagram Icon">
-        <img src="img/flic-icon.png" alt="Flicker Icon">
-        <img src="img/pint-icon.png" alt="Pintarest Icon">
-        <img src="img/rss-icon.png" alt="RSS Icon">
-        <img src="img/mail-icon.png" alt="Mail Icon">
-      </p>
-
-      <p class="slashed-banner"></p>
+      <div class="header-block1">
+        <p id="nav-bar-block">
+          <img id="logo-picture" src="img/logo.png" alt="Logo" align="left">
+          <p id="delicious"> Delicious </p>
+          <p id="logo-subtitle"> THE BEST FOOD BLOG ON THE WEB </p>
+        </p>
+      </div>
+      <div class="header-block2">
+        <p id="social-media-buttons">
+          <img src="img/fb-icon.png" alt="FaceBook Icon">
+          <img src="img/twit-icon.png" alt="Twitter Icon">
+          <img src="img/gp-icon.png" alt="Google-Plus Icon">
+          <img src="img/insta-icon.png" alt="Instagram Icon">
+          <img src="img/flic-icon.png" alt="Flicker Icon">
+          <img src="img/pint-icon.png" alt="Pintarest Icon">
+          <img src="img/rss-icon.png" alt="RSS Icon">
+          <img src="img/mail-icon.png" alt="Mail Icon">
+        </p>
+      </div>
     </header>
 
+    <!-- <p class="slashed-banner">hoooo</p> -->
+
     <div class="first-part-body">
-      <h2>Chocolate Pizza</h2>
-      <p>POSTED ON 15 DEC 2013/ DESSERTS <img src="img/print-icon.png" alt="Link Broken" align="right"></p>
+      <p id="main-title">Chocolate Pizza</p>
+
+      <p id="chocolate-pizza-subtitle">POSTED ON 15 DEC 2013 / DESSERTS
+        <text id="print-icon"><img src="img/print-icon.png" alt="Link Broken" align="right"> PRINT</text>
+      </p>
+
 
       <p id="big-image">
         <img src="img/choco-pizza.png" alt="Link Broken">
       </p>
     </div>
 
-    <section>
+    <section id="section-text">
+
       <h2>&nbsp; &nbsp; &nbsp; For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</h2>
 
       <h2>&nbsp; &nbsp; &nbsp; Ice cream: In a small pot medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</h2>
@@ -44,27 +52,27 @@
       <h2>&nbsp; &nbsp; &nbsp; Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 mintues before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperwave. Freeze for at least two hours before serving.</h2>
     </section>
 
-    <p><img src="img/list-bg.png" alt="background-lines">
+    <p id="background-lines"><img src="img/list-bg.png" alt="background-lines">
+      <ul class="ulist-block">
+        <li><input type="checkbox" name="service" value="lists-checkboxes" /> 1 1/2 cups milk </li>
+        <li><input type="checkbox" name="service" value="lists-checkboxes" /> 1/2 cup mascarpone </li>
+        <li><input type="checkbox" name="service" value="lists-checkboxes" /> 1/2 tsp pink salt </li>
+        <li><input type="checkbox" name="service" value="lists-checkboxes" /> 1 lb Blck Mission Figs </li>
+        <li><input type="checkbox" name="service" value="lists-checkboxes" /> 1/2 cup brown sugar </li>
+        <li><input type="checkbox" name="service" value="lists-checkboxes" /> 2-4 tbsp water </li>
+      </ul>
 
+      <ul class="ulist-block-2">
+        <li><input type="checkbox" name="service" value="lists-checkboxes" /> 1 1/2 cups heavy cream </li>
+        <li><input type="checkbox" name="service" value="lists-checkboxes" /> 1/3 granulated sugar </li>
+        <li><input type="checkbox" name="service" value="lists-checkboxes" /> 2 egg yolks </li>
+        <li><input type="checkbox" name="service" value="lists-checkboxes" /> 1 lemon, juiced </li>
+        <li><input type="checkbox" name="service" value="lists-checkboxes" /> 2 tbsp butter </li>
+        <li><input type="checkbox" name="service" value="lists-checkboxes" /> 1 cup honey roasted pecans, roughly chopped </li>
+      </ul>
     </p>
 
-    <ul>
-      <li>1 1/2 cups milk</li>
-      <li>1/2 cup mascarpone</li>
-      <li>1/2 tsp pink salt</li>
-      <li>1 lb Blck Mission Figs</li>
-      <li>1/2 cup brown sugar</li>
-      <li>2-4 tbsp water</li>
-    </ul>
 
-    <ul>
-      <li>1 1/2 cups heavy cream</li>
-      <li>1/3 granulated sugar</li>
-      <li>2 egg yolks</li>
-      <li>1 lemon, juiced</li>
-      <li>2 tbsp butter</li>
-      <li>1 cup honey roasted pecans, roughly chopped</li>
-    </ul>
 
 
     <footer>
@@ -81,7 +89,7 @@
         </div>
       </p>
       <h4 id="bottom-line-with-logo-in-the-middle"></h4>
-      <p>Delicious ©️ 2013 . All Rights Reserved. <br> Proudly published with Ghost.</p>
+      <p> Delicious ©️ 2013 . All Rights Reserved. <br> Proudly published with Ghost.</p>
     </footer>
   </body>
 </html>
