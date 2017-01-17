@@ -1,12 +1,127 @@
-html {
-  background-color: white;
+@font-face {
+  font-family: 'Janda';
+  src: url('fonts/Adventure.otf')
+}
+
+@font-face {
+  font-family: 'Comic-Neue-Sans';
+  src: url('fonts/ComicNeueSansID.ttf')
 }
 
 body {
-  color: white;
-  background: black;
+  padding-right: 50px; padding-left: 50px;
+  padding-top: 20px; padding-bottom: 20px;
+  color: black;
+  background: #FFFFF9;
 }
 
-slashed-banner {
+#delicious {
+  padding: inherit;
+  margin: inherit;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  font-size: 40px;
+  font-family: 'Janda';
+  float: left;
+}
+#logo-subtitle {
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+.first-part-body {
+  width: 100%;
+  overflow: auto;
+}
+
+.header-block1 {
+  display: block;
+  float: left;
+  margin-right: 100px;
+  padding-right: 100px;
+}
+.header-block2 {
+  display: block;
+  float: right;
+  margin-top: 10px;
+}
+
+.slashed-banner {
   border: 4px dotted black;
+}
+
+#main-title {
+  font-size: 35px;
+  font-family: fantasy;
+  font-weight: bold;
+  padding: auto;
+  margin-top: 30px;
+  margin-bottom: auto;
+}
+#chocolate-pizza-subtitle {
+  overflow: auto;
+  margin: auto;
+  padding: auto;
+  color: grey;
+  font-family: fantasy;
+}
+
+#print-icon {
+  color: grey;
+  font-size: 10px;
+  float: right;
+}
+
+
+
+#nav-bar-block {
+  display: block;
+  float: left;
+}
+#social-media-buttons {
+  display: block;
+  float: right;
+}
+
+#logo-picture {
+  padding-right: 10px;
+}
+
+
+
+ul {
+  list-style: none;
+}
+
+#big-image img {
+  max-width: 100%;
+  min-width: 100%;
+  border: 1px solid black;
+}
+
+#section-text {
+  font-size: 12px;
+  color: black;
+  font-family: times;
+  padding: 10px;
+}
+
+#background-lines img {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.ulist-block {
+  display: block;
+  float: left;
+  font-size: 25px;
+  margin-left: 100px;
+  margin-right: 120px;
+  font-family: 'Comic-Neue-Sans';
+}
+.ulist-block-2 {
+  display: block;
+  font-size: 25px;
+  float: left;
+  font-family: 'Comic-Neue-Sans';
 }
