@@ -92,6 +92,9 @@ body {
 ul {
   list-style: none;
 }
+.strikethrough:checked + span {
+  text-decoration: line-through;
+}
 
 #big-image img {
   max-width: 100%;
