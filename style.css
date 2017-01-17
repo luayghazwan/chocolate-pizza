@@ -88,7 +88,10 @@ body {
 }
 
 .point {
-  cursor: default;
+  cursor: pointer;
+}
+.gap {
+  padding-left: 10px;
 }
 
 ul {
