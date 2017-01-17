@@ -87,7 +87,9 @@ body {
   padding-right: 10px;
 }
 
-
+.point {
+  cursor: default;
+}
 
 ul {
   list-style: none;
