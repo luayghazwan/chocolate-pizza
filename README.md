@@ -1,6 +1,6 @@
 # chocolate-pizza
 
-Welcome to My Chocolate Pizza page...
+Welcome to My Chocolate Pizza page!
 
 This is a blog that I was requested to create.
 
