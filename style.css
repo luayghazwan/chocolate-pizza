@@ -1,4 +1,12 @@
+html {
+  background-color: white;
+}
+
 body {
   color: white;
   background: black;
+}
+
+slashed-banner {
+  border: 4px dotted black;
 }
